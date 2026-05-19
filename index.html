@@ -17,8 +17,7 @@
 .grid{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}
 .card{background:#fff;border:0.5px solid #D3D1C7;border-radius:14px;overflow:hidden}
 .card-top{padding:13px 15px 12px;border-bottom:0.5px solid rgba(0,0,0,0.07);background:var(--accent)}
-.card-head{display:flex;align-items:center;gap:9px}
-.num{font-size:11px;font-weight:500;color:var(--accent);background:#fff;width:22px;height:22px;border-radius:50%;display:inline-flex;align-items:center;justify-content:center;flex-shrink:0}
+.card-head{display:flex;align-items:center}
 .school{font-size:13px;font-weight:700;color:#fff;line-height:1.35;font-family:Arial,Helvetica,sans-serif;letter-spacing:0.1px}
 .card-bottom{padding:11px 14px 13px;background:var(--bg)}
 .platforms{display:grid;grid-template-columns:1fr 1fr;gap:7px}
@@ -42,9 +41,9 @@
 
 <div class="grid">
 
-<!-- Rând 1: Cocorăștii + Caragiale Pitești -->
+<!-- Rând 1: Cocorăștii + Mihai Dumitriu -->
 <div class="card" style="--accent:#185FA5;--bg:#EEF6FD">
-  <div class="card-top"><div class="card-head"><div class="num">1</div><div class="school">Șc. Gim. Cocorăștii-Colț</div></div></div>
+  <div class="card-top"><div class="card-head"><div class="school">Șc. Gim. Cocorăștii-Colț</div></div></div>
   <div class="card-bottom"><div class="platforms">
     <a class="pill" href="https://www.instagram.com/real.teentalk/" target="_blank" style="--pill-bg:#FBEAF0;--pill-border:#ED93B1;--pill-text:#72243E">
       <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><rect x="2" y="2" width="20" height="20" rx="5" stroke="#D4537E" stroke-width="2"/><circle cx="12" cy="12" r="5" stroke="#D4537E" stroke-width="2"/><circle cx="17.5" cy="6.5" r="1.5" fill="#D4537E"/></svg>Instagram
@@ -55,8 +54,18 @@
   </div></div>
 </div>
 
+<div class="card" style="--accent:#BA7517;--bg:#FDF6EA">
+  <div class="card-top"><div class="card-head"><div class="school">Liceul „Prof. Mihai Dumitriu" Valea Lupului</div></div></div>
+  <div class="card-bottom"><div class="platforms one">
+    <a class="pill" href="https://www.instagram.com/team_narada_vl/" target="_blank" style="--pill-bg:#FBEAF0;--pill-border:#ED93B1;--pill-text:#72243E">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><rect x="2" y="2" width="20" height="20" rx="5" stroke="#D4537E" stroke-width="2"/><circle cx="12" cy="12" r="5" stroke="#D4537E" stroke-width="2"/><circle cx="17.5" cy="6.5" r="1.5" fill="#D4537E"/></svg>Instagram
+    </a>
+  </div></div>
+</div>
+
+<!-- Rând 2: Caragiale Pitești + Băișoara -->
 <div class="card" style="--accent:#534AB7;--bg:#F5F4FE">
-  <div class="card-top"><div class="card-head"><div class="num">2</div><div class="school">Șc. Gim. I.L. Caragiale Pitești</div></div></div>
+  <div class="card-top"><div class="card-head"><div class="school">Șc. Gim. I.L. Caragiale Pitești</div></div></div>
   <div class="card-bottom"><div class="platforms">
     <a class="pill" href="https://www.instagram.com/i.l.caragiale_extralab/reels/" target="_blank" style="--pill-bg:#FBEAF0;--pill-border:#ED93B1;--pill-text:#72243E">
       <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><rect x="2" y="2" width="20" height="20" rx="5" stroke="#D4537E" stroke-width="2"/><circle cx="12" cy="12" r="5" stroke="#D4537E" stroke-width="2"/><circle cx="17.5" cy="6.5" r="1.5" fill="#D4537E"/></svg>Instagram
@@ -70,9 +79,24 @@
   </div></div>
 </div>
 
-<!-- Rând 2: Jacques + Bontida -->
+<div class="card" style="--accent:#1D9E75;--bg:#F2FBF7">
+  <div class="card-top"><div class="card-head"><div class="school">Șc. Gim. „Mircea Luca" Băișoara</div></div></div>
+  <div class="card-bottom"><div class="platforms">
+    <a class="pill" href="https://www.instagram.com/echipa_baisoara/" target="_blank" style="--pill-bg:#FBEAF0;--pill-border:#ED93B1;--pill-text:#72243E">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><rect x="2" y="2" width="20" height="20" rx="5" stroke="#D4537E" stroke-width="2"/><circle cx="12" cy="12" r="5" stroke="#D4537E" stroke-width="2"/><circle cx="17.5" cy="6.5" r="1.5" fill="#D4537E"/></svg>Instagram
+    </a>
+    <a class="pill" href="https://www.tiktok.com/@vocea_noii_generatii2026" target="_blank" style="--pill-bg:#F1EFE8;--pill-border:#B4B2A9;--pill-text:#2C2C2A">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M9 12a4 4 0 1 0 4 4V4a5 5 0 0 0 5 5" stroke="#444441" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>TikTok
+    </a>
+    <a class="pill" href="https://www.youtube.com/@EchipaB%C4%83i%C5%9Foara" target="_blank" style="--pill-bg:#FCEBEB;--pill-border:#F09595;--pill-text:#791F1F">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.95-1.96C18.88 4 12 4 12 4s-6.88 0-8.59.46A2.78 2.78 0 0 0 1.46 6.42 29 29 0 0 0 1 12a29 29 0 0 0 .46 5.58 2.78 2.78 0 0 0 1.95 1.96C5.12 20 12 20 12 20s6.88 0 8.59-.46a2.78 2.78 0 0 0 1.95-1.96A29 29 0 0 0 23 12a29 29 0 0 0-.46-5.58z" stroke="#E24B4A" stroke-width="2"/><polygon points="9.75 15.02 15.5 12 9.75 8.98 9.75 15.02" stroke="#E24B4A" stroke-width="2" stroke-linejoin="round"/></svg>YouTube
+    </a>
+  </div></div>
+</div>
+
+<!-- Rând 3: Jacques + Bonțida -->
 <div class="card" style="--accent:#993556;--bg:#FDF2F6">
-  <div class="card-top"><div class="card-head"><div class="num">3</div><div class="school">Liceul Tehn. „Jacques M. Elias"</div></div></div>
+  <div class="card-top"><div class="card-head"><div class="school">Liceul Tehn. „Jacques M. Elias"</div></div></div>
   <div class="card-bottom"><div class="platforms one">
     <a class="pill" href="https://www.instagram.com/mindset.x_narada/" target="_blank" style="--pill-bg:#FBEAF0;--pill-border:#ED93B1;--pill-text:#72243E">
       <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><rect x="2" y="2" width="20" height="20" rx="5" stroke="#D4537E" stroke-width="2"/><circle cx="12" cy="12" r="5" stroke="#D4537E" stroke-width="2"/><circle cx="17.5" cy="6.5" r="1.5" fill="#D4537E"/></svg>Instagram
@@ -81,7 +105,7 @@
 </div>
 
 <div class="card" style="--accent:#0F6E56;--bg:#F0FAF6">
-  <div class="card-top"><div class="card-head"><div class="num">4</div><div class="school">Școala Profesională Bontida</div></div></div>
+  <div class="card-top"><div class="card-head"><div class="school">Școala Profesională Bontida</div></div></div>
   <div class="card-bottom"><div class="platforms one">
     <a class="pill" href="https://www.instagram.com/narada.bontida/" target="_blank" style="--pill-bg:#FBEAF0;--pill-border:#ED93B1;--pill-text:#72243E">
       <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><rect x="2" y="2" width="20" height="20" rx="5" stroke="#D4537E" stroke-width="2"/><circle cx="12" cy="12" r="5" stroke="#D4537E" stroke-width="2"/><circle cx="17.5" cy="6.5" r="1.5" fill="#D4537E"/></svg>Instagram
@@ -89,9 +113,9 @@
   </div></div>
 </div>
 
-<!-- Rând 3: Fulga (4 platforme) -->
+<!-- Rând 4: Fulga + Toma Caragiu -->
 <div class="card" style="--accent:#D4537E;--bg:#FDF2F7">
-  <div class="card-top"><div class="card-head"><div class="num">5</div><div class="school">Șc. Gim. „Laurențiu Fulga"</div></div></div>
+  <div class="card-top"><div class="card-head"><div class="school">Șc. Gim. „Laurențiu Fulga"</div></div></div>
   <div class="card-bottom"><div class="platforms">
     <a class="pill" href="https://www.instagram.com/extralab_skills_for_the_future/" target="_blank" style="--pill-bg:#FBEAF0;--pill-border:#ED93B1;--pill-text:#72243E">
       <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><rect x="2" y="2" width="20" height="20" rx="5" stroke="#D4537E" stroke-width="2"/><circle cx="12" cy="12" r="5" stroke="#D4537E" stroke-width="2"/><circle cx="17.5" cy="6.5" r="1.5" fill="#D4537E"/></svg>Instagram
@@ -108,9 +132,8 @@
   </div></div>
 </div>
 
-<!-- Toma Caragiu (4 platforme) -->
 <div class="card" style="--accent:#D85A30;--bg:#FDF1EC">
-  <div class="card-top"><div class="card-head"><div class="num">6</div><div class="school">Șc. Gim. „Toma Caragiu" Ploiești</div></div></div>
+  <div class="card-top"><div class="card-head"><div class="school">Șc. Gim. „Toma Caragiu" Ploiești</div></div></div>
   <div class="card-bottom"><div class="platforms">
     <a class="pill" href="https://www.instagram.com/theextralab2026/" target="_blank" style="--pill-bg:#FBEAF0;--pill-border:#ED93B1;--pill-text:#72243E">
       <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><rect x="2" y="2" width="20" height="20" rx="5" stroke="#D4537E" stroke-width="2"/><circle cx="12" cy="12" r="5" stroke="#D4537E" stroke-width="2"/><circle cx="17.5" cy="6.5" r="1.5" fill="#D4537E"/></svg>Instagram
@@ -127,34 +150,9 @@
   </div></div>
 </div>
 
-<!-- Rând 4: Mihai Dumitriu + Mircea Luca -->
-<div class="card" style="--accent:#BA7517;--bg:#FDF6EA">
-  <div class="card-top"><div class="card-head"><div class="num">7</div><div class="school">Liceul „Prof. Mihai Dumitriu" Valea Lupului</div></div></div>
-  <div class="card-bottom"><div class="platforms one">
-    <a class="pill" href="https://www.instagram.com/team_narada_vl/" target="_blank" style="--pill-bg:#FBEAF0;--pill-border:#ED93B1;--pill-text:#72243E">
-      <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><rect x="2" y="2" width="20" height="20" rx="5" stroke="#D4537E" stroke-width="2"/><circle cx="12" cy="12" r="5" stroke="#D4537E" stroke-width="2"/><circle cx="17.5" cy="6.5" r="1.5" fill="#D4537E"/></svg>Instagram
-    </a>
-  </div></div>
-</div>
-
-<div class="card" style="--accent:#1D9E75;--bg:#F2FBF7">
-  <div class="card-top"><div class="card-head"><div class="num">8</div><div class="school">Șc. Gim. „Mircea Luca" Băișoara</div></div></div>
-  <div class="card-bottom"><div class="platforms">
-    <a class="pill" href="https://www.instagram.com/echipa_baisoara/" target="_blank" style="--pill-bg:#FBEAF0;--pill-border:#ED93B1;--pill-text:#72243E">
-      <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><rect x="2" y="2" width="20" height="20" rx="5" stroke="#D4537E" stroke-width="2"/><circle cx="12" cy="12" r="5" stroke="#D4537E" stroke-width="2"/><circle cx="17.5" cy="6.5" r="1.5" fill="#D4537E"/></svg>Instagram
-    </a>
-    <a class="pill" href="https://www.tiktok.com/@vocea_noii_generatii2026" target="_blank" style="--pill-bg:#F1EFE8;--pill-border:#B4B2A9;--pill-text:#2C2C2A">
-      <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M9 12a4 4 0 1 0 4 4V4a5 5 0 0 0 5 5" stroke="#444441" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>TikTok
-    </a>
-    <a class="pill" href="https://www.youtube.com/@EchipaB%C4%83i%C5%9Foara" target="_blank" style="--pill-bg:#FCEBEB;--pill-border:#F09595;--pill-text:#791F1F">
-      <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.95-1.96C18.88 4 12 4 12 4s-6.88 0-8.59.46A2.78 2.78 0 0 0 1.46 6.42 29 29 0 0 0 1 12a29 29 0 0 0 .46 5.58 2.78 2.78 0 0 0 1.95 1.96C5.12 20 12 20 12 20s6.88 0 8.59-.46a2.78 2.78 0 0 0 1.95-1.96A29 29 0 0 0 23 12a29 29 0 0 0-.46-5.58z" stroke="#E24B4A" stroke-width="2"/><polygon points="9.75 15.02 15.5 12 9.75 8.98 9.75 15.02" stroke="#E24B4A" stroke-width="2" stroke-linejoin="round"/></svg>YouTube
-    </a>
-  </div></div>
-</div>
-
-<!-- Rând 5: Nr.1 Văculești + Nr.113 -->
+<!-- Rând 5: Văculești + Nr.113 -->
 <div class="card" style="--accent:#534AB7;--bg:#F5F4FE">
-  <div class="card-top"><div class="card-head"><div class="num">9</div><div class="school">Șc. Gim. Nr. 1 Văculești</div></div></div>
+  <div class="card-top"><div class="card-head"><div class="school">Șc. Gim. Nr. 1 Văculești</div></div></div>
   <div class="card-bottom"><div class="platforms one">
     <a class="pill" href="https://www.instagram.com/inimi_unite_la_narada_/" target="_blank" style="--pill-bg:#FBEAF0;--pill-border:#ED93B1;--pill-text:#72243E">
       <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><rect x="2" y="2" width="20" height="20" rx="5" stroke="#D4537E" stroke-width="2"/><circle cx="12" cy="12" r="5" stroke="#D4537E" stroke-width="2"/><circle cx="17.5" cy="6.5" r="1.5" fill="#D4537E"/></svg>Instagram
@@ -163,7 +161,7 @@
 </div>
 
 <div class="card" style="--accent:#D85A30;--bg:#FDF1EC">
-  <div class="card-top"><div class="card-head"><div class="num">10</div><div class="school">Șc. Gim. Nr. 113</div></div></div>
+  <div class="card-top"><div class="card-head"><div class="school">Șc. Gim. Nr. 113</div></div></div>
   <div class="card-bottom"><div class="platforms">
     <a class="pill" href="https://www.tiktok.com/@narada.extra.lab" target="_blank" style="--pill-bg:#F1EFE8;--pill-border:#B4B2A9;--pill-text:#2C2C2A">
       <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M9 12a4 4 0 1 0 4 4V4a5 5 0 0 0 5 5" stroke="#444441" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>TikTok
